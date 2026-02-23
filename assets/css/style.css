@@ -1,6 +1,7 @@
 /* CSS Variables for Dark Cyber Theme */
 :root {
     --neon-cyan: #00f2ff;
+    --common-blue:#0077ff;
     --cyber-purple: #bc13fe;
     --dark-bg: #0d0d0d;
     --glass-bg: rgba(255, 255, 255, 0.1);
