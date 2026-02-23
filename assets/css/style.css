@@ -5,3 +5,8 @@
     --dark-bg: #0d0d0d;
     --glass-bg: rgba(255, 255, 255, 0.1);
 }
+body {
+    background-color: var(--dark-bg);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
