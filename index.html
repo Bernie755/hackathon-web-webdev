@@ -29,7 +29,23 @@
                         </li>
     </header>  
     <main id="content-area">
-        <h1>Welcome to the Hackathon</h1>
+        <section class="py-5 text-center d-flex flex-column justify-content-center" style="min-height: 70vh;">
+            <h2 class="display-3 fw-bold" style="color: var(--neon-cyan);">CYBER-SECURITY 2026</h2>
+            <p class="lead">Join the elite ethical hackers.</p>
+            <div>
+                <button class="btn btn-lg mt-3 fw-bold" style="background-color: var(--cyber-purple); color: white;" data-bs-toggle="modal" data-bs-target="#regModal">REGISTER NOW</button>
+            </div>
+        </section>
+        <div class="modal fade" id="regModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark border-info">
+                    <div class="modal-body p-4">
+                        <h4 style="color: var(--neon-cyan);">Register</h4>
+                        <input type="text" class="form-control mt-3" id="userName" placeholder="Full Name" required>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="container text-center py-3">
