@@ -16,3 +16,20 @@ body {
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+.hackathon-card {
+    background: #1a1a1a;
+    border: 1px solid rgba(188, 19, 254, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hackathon-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(188, 19, 254, 0.2);
+    border-color: var(--neon-cyan);
+}
+
+
+.form-label {
+    color: var(--common-blue);
+    font-weight: 500;
+}
